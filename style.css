@@ -1,0 +1,84 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: 
+    Template URI: 
+    Description: T
+    Author: 
+    Author 
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+
+
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i');
+* {
+    margin: 0;
+    padding: 0;
+}
+    .alignleft {
+        float: left;
+        margin-right: 15px;
+    }
+    .alignright {
+        float: right;
+        margin-left: 15px;
+    }
+    .aligncenter {
+        display: block;
+        margin: 0 auto 15px;
+    }
+    a:focus { outline: 0 solid }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    h1,h2,h3,h4,h5,h6{
+        margin: 0 0 15px;
+        font-weight: 700;
+    }
+    a:hover, a:focus{
+        text-decoration: none;
+        outline: none;
+        border: none;
+    }
+    body{
+        font-family: 'Roboto', sans-serif;
+    }
+    
+
+
+.filter-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.filter-menu ul li {
+  display: inline-block;
+  border: 2px solid #333;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.item {
+  height: 300px;
+  background-color: #ddd;
+}
+.filter-menu {
+  margin-bottom: 30px;
+}
+.filter-item .item{
+    transition: .8s;
+    -webkit-transition: .8s;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    opacity: 1;
+}
+.filter-item .item.__loading{
+    opacity: 0;
+    transform: translateX(40px);
+    -webkit-transform: translateX(40px);
+}
+
