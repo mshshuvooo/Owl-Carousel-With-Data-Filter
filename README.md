@@ -1,1 +1,0 @@
-# owl-carousel-with-filter
